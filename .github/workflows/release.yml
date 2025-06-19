@@ -41,7 +41,7 @@ jobs:
           path: target/bibleminigames-*.jar # Ruta a tu JAR sombreado. Usa * para cualquier versión/nombre exacto
 
   create-release:
-    needs: build # Este job depende del job 'build' para asegurar que el JAR se haya creado
+    needs: build # Este job depende del job 'build' para asegurar que el JAR se haya creado :D
     runs-on: ubuntu-latest
 
     # Solo se ejecuta si el evento que lo disparó fue un 'push' y la rama es 'main'
