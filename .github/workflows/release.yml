@@ -37,8 +37,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: biblieminigames-jar # Nombre del artefacto
-          path: target/biblieminigames-*.jar # Ruta a tu JAR sombreado. Usa * para cualquier versión/nombre exacto
+          name: bibleminigames-jar # Nombre del artefacto
+          path: target/bibleminigames-*.jar # Ruta a tu JAR sombreado. Usa * para cualquier versión/nombre exacto
 
   create-release:
     needs: build # Este job depende del job 'build' para asegurar que el JAR se haya creado
@@ -53,7 +53,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: biblieminigames-jar # Debe coincidir con el 'name' del upload-artifact
+          name: bibleminigames-jar # Debe coincidir con el 'name' del upload-artifact
 
       # Paso 2: Crear el Release de GitHub
       - name: Create Release
