@@ -1,0 +1,5 @@
+arenas:
+  david_goliath_default:
+    type: DEFAULT
+    game_type: DAVID_GOLIATH
+    enabled: true
