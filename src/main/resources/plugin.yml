@@ -1,0 +1,7 @@
+name: BibleMinigames
+version: '1.0-SNAPSHOT'
+main: studio.joaosouza.bibleMinigames.BibleMinigames
+api-version: '1.21'
+authors: [ ImJoaoSouza ]
+description: Plugin
+website: https://joaosouza.studio
