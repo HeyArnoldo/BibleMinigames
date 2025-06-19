@@ -3,5 +3,11 @@ version: '1.0-SNAPSHOT'
 main: studio.joaosouza.bibleMinigames.BibleMinigames
 api-version: '1.21'
 authors: [ ImJoaoSouza ]
-description: Plugin
+description: Minigames basados en historias de la Biblia
 website: https://joaosouza.studio
+
+commands:
+  bm:
+    description: Comandos de usuario para BibleMinigames
+  bma:
+    description: Comandos administrativos de BibleMinigames
